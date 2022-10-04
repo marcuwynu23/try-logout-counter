@@ -9,13 +9,7 @@
 
 <body>
 	<p>Home</p>
-	time remaining:
-	<?php
-	session_start();
-	include_once "./checkLogout.php";
-	$time = $_SESSION["time"];
-	echo getDayRaimaining($time);
-	?>
+
 	<a href="/logout.php">logout</a>
 </body>
 
